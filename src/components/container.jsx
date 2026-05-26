@@ -1,7 +1,7 @@
 const Container = () =>{
 return (
 
-    <main className="hero">
+    <main className="hero container">
 
 
         <div className="hero-content">
@@ -10,13 +10,15 @@ return (
 
             <div className="btns">
                 <button>SHOP NOW</button>
-                <button>CATEGORY</button>
+                <button className="second">CATEGORY</button>
             </div>
 
             <div className="avlb">
                 <p> Also Available On:</p>
-                <img src="/images/flipkart.png" alt="" />
-                <img src="/images/amazon.png" alt="" />
+             <div className="brnd-icons">
+                   <img src="/images/flipkart.png" alt="" />
+                <img  src="/images/amazon.png" alt="" />
+             </div>
             </div>
 
 

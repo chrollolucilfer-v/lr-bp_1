@@ -49,14 +49,15 @@ button{
 
 .container{
     width: 1280px;
+    margin: 0 auto;
 }
 
 
 .hero{
     display: flex;
-    width: 1125px;
-    height: 613px;
+    height:  calc(100vh - 72px);
     align-items: center;
+
 
 }
 
@@ -64,8 +65,43 @@ h1{
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 108px;
-  line-height: 1;
+  line-height: 102px;
 }
+
+.hero p{
+font-weight: 600;
+color: var(--gray);
+  max-width: 400px;
+
+}
+
+
+.btns{
+    display: flex;
+    gap: 40px;
+
+
+}
+.btns button {
+  font-size: 24px;
+}
+
+
+.avlb p {
+ font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.brnd-icons{
+  display: flex;
+  gap: 16px;
+}
+.second {
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid gray;
+}
+
 .hero-content{
     display: flex;
 flex-direction: column;    
