@@ -1,7 +1,19 @@
+
+import "./App.css";
+import Nav from './components/nav';
+import Container from './components/container';
+
 const App = () =>{
   return (
   <div>
-    My First Components
+    <Nav/>
+  
+    <Container/>
+
+
+
+
+
   </div>
   )
 }
